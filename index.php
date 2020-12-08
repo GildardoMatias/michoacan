@@ -18,8 +18,8 @@
                     style="background-image: url(assets/img/banner.jpg)">
                 </div>
                 <div class="card__content">
-                    <p class="card__category">Category</p>
-                    <h3 class="card__heading">Example Card Heading</h3>
+                    <p class="card__category">Pueblo magico</p>
+                    <h3 class="card__heading">Pichataro</h3>
                 </div>
             </a>
             <a class="card" href="#">
