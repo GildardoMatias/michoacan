@@ -47,7 +47,7 @@
 Uno de los principales atractivos turísticos de la comunidad, es la iglesia de San Francisco de Asís, ubicada en el centro del poblado, además de las artesanías típicas del lugar, como lo son los Muebles Rústicos labrados en madera de pino, así como los bordados en punto de cruz, realizados por manos de artesanos y artesanas de la comunidad. 
 Otra de las cosas que podrás encontrar en esta comunidad, es su delicioso Pan Casero, elaborado en hornos de piedra y cocido con leña de encino, lo cual resulta un manjar para tu paladar.</p>
 					<ul class="actions">
-						<li><a href="#" class="button alt">Learn More</a></li>
+						<li><a href="#" class="button alt">Ver mas</a></li>
 					</ul>
 				</div>
 			</section>
