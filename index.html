@@ -48,10 +48,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
         <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <a class="navbar-brand logo-text page-scroll" href="index.html">MICHOACÁN MÁGICO</a>
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">MICHOACÁN MÁGICO</a> -->
 
         <!-- Image Logo -->
-        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -618,34 +618,35 @@
                     <form id="callMeForm" data-toggle="validator" data-focus="false">
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="lname" name="lname" required>
-                            <label class="label-control" for="lname">Name</label>
+                            <label class="label-control" for="lname">Nombre</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control-input" id="lphone" name="lphone" required>
-                            <label class="label-control" for="lphone">Phone</label>
+                            <label class="label-control" for="lphone">Celular</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control-input" id="lemail" name="lemail" required>
-                            <label class="label-control" for="lemail">Email</label>
+                            <label class="label-control" for="lemail">Correo electrónico</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
                             <select class="form-control-select" id="lselect" required>
-                                <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Off The Ground">Off The Ground</option>
-                                <option class="select-option" value="Accelerated Growth">Accelerated Growth</option>
-                                <option class="select-option" value="Market Domination">Market Domination</option>
+                                <option class="select-option" value="" disabled selected>Qué te interesa ?</option>
+                                <option class="select-option" value="Off The Ground">Promocionar un evento</option>
+                                <option class="select-option" value="Accelerated Growth">Promocionar una comunidad</option>
+                                <option class="select-option" value="Accelerated Growth">Promocionar un negocio o empresa</option>
+                                <option class="select-option" value="Market Domination">Negocios</option>
                             </select>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group checkbox white">
-                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>I agree with Aria's stated <a class="white" href="privacy-policy.html">Privacy Policy</a> and <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                            <input type="checkbox" id="lterms" value="Agreed-to-Terms" name="lterms" required>Acepto la <a class="white" href="privacy-policy.html">Pol+itica de privacidad</a> y los <a class="white" href="terms-conditions.html">Términos y Condiciones</a>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">CALL ME</button>
+                            <button type="submit" class="form-control-submit-button">ENVIAR</button>
                         </div>
                         <div class="form-message">
                             <div id="lmsgSubmit" class="h3 text-center hidden"></div>
