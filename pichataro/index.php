@@ -41,9 +41,11 @@
 			<section id="one">
 				<div class="inner">
 					<header>
-						<h2>Magna Etiam Lorem</h2>
+						<h2>Comunidad Indigena Pichataro</h2>
 					</header>
-					<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
+					<p>La comunidad de San Francisco Pichátaro se encuentra ubicada en el municipio de Tingambato, a hora y media de la Ciudad de Morelia, es la puerta que conduce a la Meseta Purépecha, perteneciente a la región de la Sierra de dicha cultura . 
+Uno de los principales atractivos turísticos de la comunidad, es la iglesia de San Francisco de Asís, ubicada en el centro del poblado, además de las artesanías típicas del lugar, como lo son los Muebles Rústicos labrados en madera de pino, así como los bordados en punto de cruz, realizados por manos de artesanos y artesanas de la comunidad. 
+Otra de las cosas que podrás encontrar en esta comunidad, es su delicioso Pan Casero, elaborado en hornos de piedra y cocido con leña de encino, lo cual resulta un manjar para tu paladar.</p>
 					<ul class="actions">
 						<li><a href="#" class="button alt">Learn More</a></li>
 					</ul>

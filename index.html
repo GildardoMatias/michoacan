@@ -120,7 +120,8 @@
                     <div class="col-lg-12">
                         <div class="text-container">
                             <h1>CONOCE <span id="js-rotating">MICHOACÁN, MORELIA, PATZCUARO, LA REGIÓN PHUREPECHA</span></h1>
-                            <p class="p-heading p-large">breve reseña del estado breve reseña del estado breve reseña del estado breve reseña del estadobreve reseña del estado</p>
+                            <p class="p-heading p-large">Este es un espacio creado con la finalidad de llevarte a conocer los distintos lugares, paisajes, gastronomía y tradiciones que tiene nuestro bello Estado de Michoacán.
+                                Además, encontraras recomendaciones sobre lugares donde podrás encontrarte desde una muy buena comida tradicional, artesanías, bebidas, hasta pasar un rato inolvidable en compañía de tu familia, amigos o pareja disfrutando de los mejores lugares de recreación en las distintas regiones del Estado.</p>
                             <a class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
                         </div>
                     </div> <!-- end of col -->
@@ -139,14 +140,16 @@
                     <div class="text-container">
                         <div class="section-title">INTRO</div>
                         <h2>DEJATE LLEVAR POR LA MAGIA DE SUS PUEBLOS</h2>
-                        <p>Descripcion breve Descripcion breve Descripcion breve Descripcion breve Descripcion breve Descripcion breve</p>
-                        <p class="testimonial-text">"Frase de algun autor local Frase de algun autor local Frase de algun autor local "</p>
-                        <div class="testimonial-author">Personalidad local - 2021</div>
+                        <p>La comunidad de San Francisco Pichátaro se encuentra ubicada en el municipio de Tingambato, a hora y media de la Ciudad de Morelia, es la puerta que conduce a la Meseta Purépecha, perteneciente a la región de la Sierra de dicha cultura . 
+                            Uno de los principales atractivos turísticos de la comunidad, es la iglesia de San Francisco de Asís, ubicada en el centro del poblado, además de las artesanías típicas del lugar, como lo son los Muebles Rústicos labrados en madera de pino, así como los bordados en punto de cruz, realizados por manos de artesanos y artesanas de la comunidad. 
+                            Otra de las cosas que podrás encontrar en esta comunidad, es su delicioso Pan Casero, elaborado en hornos de piedra y cocido con leña de encino, lo cual resulta un manjar para tu paladar.</p>
+                        <p class="testimonial-text">"Lugar donde se hacen los clavos de madera"</p>
+                        <div class="testimonial-author">San Francisco Pichataro</div>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/intro-office.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/intro-office.jpg" alt="alternative" onclick="toPichataro()" >
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -230,14 +233,14 @@
                             <ul class="list-unstyled li-space-lg">
                                 <li class="media">
                                     <i class="fas fa-square"></i>
-                                    <div class="media-body">- Reseña positiva breve -</div>
+                                    <div class="media-body">Espacio ubicado en el centro de la localidad de Erongaricuaro, municipio perteneciente a la rivera del lago de Pátzcuaro, en el cual podrás disfrutar de una tarde agradable probando una amplia variedad de bebidas preparadas, cerveza artesanal y comida, acompañado de música en vivo</div>
                                 </li>
                                 <li class="media">
                                     <i class="fas fa-square"></i>
-                                    <div class="media-body">- Reseña positiva breve -</div>
+                                    <div class="media-body">Podrás disfrutar de la exposición diferentes productos artísticos como pinturas, máscaras, cuadros, entre otras, con la posibilidad de adquirirlos a bajo costo.</div>
                                 </li>
                             </ul>
-                            <p class="price">Celebrado el <span>06/01/2021</span></p>
+                            <p class="price">Te invitamos a que visites este maravilloso lugar y descubras las distintas promociones que tiene para ti <span>Menciona este anuncio y obtén una sorpresa al momento de tú visita.</span></p>
                         </div>
                         <div class="button-container">
                             <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
@@ -315,7 +318,7 @@
                 <div class="item">
                     <div id="headingOne">
                         <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
-                            <span class="circle-numbering">1</span><span class="accordion-title">How Can Aria Help Your Business</span>
+                            <span class="circle-numbering">1</span><span class="accordion-title">Historia</span>
                         </span>
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionOne">
@@ -328,7 +331,7 @@
                 <div class="item">
                     <div id="headingTwo">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
-                            <span class="circle-numbering">2</span><span class="accordion-title">Great Strategic Business Planning</span>
+                            <span class="circle-numbering">2</span><span class="accordion-title">Importancia Historica</span>
                         </span>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
@@ -341,7 +344,7 @@
                 <div class="item">
                     <div id="headingThree">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">3</span><span class="accordion-title">Online Marketing Campaigns</span>
+                            <span class="circle-numbering">3</span><span class="accordion-title">Importancia para el pueblo</span>
                         </span>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
@@ -1232,6 +1235,12 @@
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
+    <!-- Enlace a pichataro -->
+    <script>
+        function toPichataro(){
+            location.href = "pichataro"
+        }
+    </script>
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
