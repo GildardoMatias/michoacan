@@ -13,6 +13,7 @@ Table Of Contents:
 04. Header
 05. Intro
 06. Description
+06.5 Youtube Video
 07. Services
 08. Details 1
 09. Details 2
@@ -891,6 +892,42 @@ input[type='checkbox'] {
 	margin-bottom: 0.625rem;
 }
 
+
+/***************************/
+/*     06.5. Youtube Video */
+/***************************/
+.ytcabeceras {
+	padding-top: 6.625rem;	
+	padding-bottom: 1.25rem;	
+	background-color: #fbfbfb;
+}
+.ytcabeceras .section-title {
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.ytcabeceras h2 {
+	margin-bottom: 3.25rem;
+	text-align: center;
+}
+
+.ytcontainer {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+  }
 
 /************************/
 /*     07. Services     */
